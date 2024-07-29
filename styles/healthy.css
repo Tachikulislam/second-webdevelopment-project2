@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
-
 .inter-sans-font{
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
@@ -40,8 +39,8 @@
     border-radius: 39px;
     justify-content: space-between;
     align-items: center;
-    
 }
+
 .font-radious{
     width: 92px;
     height: 38px;
@@ -79,8 +78,9 @@ align-items: center;
     margin: 0 auto;
     
 }
-
-
+.ul-class{
+    margin-left: -35px;
+}
 
 .get-body{
    
@@ -129,19 +129,150 @@ align-items: center;
 
 .btn-primary{
     background: rgba(48, 48, 48, 0.54);
-    color: white;
+    
     padding: 20px 25px;
-    font-size: 1.25rem;
     font-weight: 600;
     border-radius: 8px;
     border: none;
-    
+    width: 206px;
+    height: 96px;
 } 
 
-#exprience-badge{
-    
-   
+.box-one{
+    margin-left: -100px;
+    margin-top: -150px;
 }
-#exprience-year{
-    
+.box-two{
+    margin-left: 240px;
+    margin-top: -410px;
+}
+
+.ball{
+    height: 40px;
+    width: 40px;
+    background-color: rgb(230, 83, 60);
+    border-radius: 50%;
+    margin-left: -15px;
+    margin-top: -50px;
+}
+
+.exprience-badge{
+    margin-top:-280px;
+}
+
+.banner-image{
+    /* width: 100%;  */
+}
+
+#video-tutorial-number{
+    font-weight: 900;
+    font-size: 24px;
+    color: white;
+}
+#video-tutorial{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(239, 237, 232, 0.65);
+}
+#video-tutorial-number2{
+    font-weight: 900;
+    font-size: 40px;
+    color: white;
+}
+#video-tutorial2{
+    font-size: 13px;
+    font-weight: 400;
+    color: rgba(239, 237, 232, 0.65);
+}
+
+/* main section start */
+#habit{
+    Width: 476px;
+    Height: 57px;
+    Font weight: 900;
+    Font size: 48px;
+    color: rgb(255, 255, 255);
+}
+
+.fitness{
+    width: 671px;
+    height: 48px;
+    font-weight: 400;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: -30px;
+}
+
+.image-style{
+    width: 93px;
+    height: 22px;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.believe{
+    width: 231px;
+    height: 36px;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.img-circle{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.your-habit{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-left: 500px;
+}
+
+.all-main-part{
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+.display-image{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/* Inside Auto Layout */
+.box-shado{
+    width: 1300px;
+    height: 371px;
+    margin: 62px 0px;
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+    align-items: center;
+    margin-left: 100px;
+}
+
+.colour{
+    color: white;
+}
+
+.run-image{
+    width: 366px;
+    height: 312px;
+    border-radius: 18px;
+}
+.easily-flex{
+    display: flex;
+    justify-content: space-around;
+}
+
+/* responsive media query */
+@media screen and (max-width: 576px){
+    .navbar, .nav-link {
+        
+    }
 }
